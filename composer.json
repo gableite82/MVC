@@ -1,0 +1,16 @@
+{
+    "name": "gabriel/mvc",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\Mvc\\": "src/"
+        },
+        "server": "php -S localhost:8080 -t public"
+    },
+    "authors": [
+        {
+            "name": "Gabriel Leite",
+            "email": "gabrielleite82@hotmail.com"
+        }
+    ],
+    "require": {}
+}
