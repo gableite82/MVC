@@ -2,7 +2,8 @@
     "name": "gabriel/mvc",
     "autoload": {
         "psr-4": {
-            "Gabriel\\Mvc\\": "src/"
+            "app\\": "app/",
+            "core\\": "core"
         },
         "server": "php -S localhost:8080 -t public"
     },
@@ -12,5 +13,8 @@
             "email": "gabrielleite82@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "^3.7",
+        "twig/extensions": "^1.5"
+    }
 }
